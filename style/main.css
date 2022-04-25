@@ -39,10 +39,10 @@ header nav a:hover{
     color: #fff;
 }
 
-/*Filme Principal*/
-.filme-principal{
+/*anime Principal*/
+.anime-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/capa.jpg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/AnimeFlix---DIO/img/capa.jpg');
 
     height:400px;
     background-size:cover;
@@ -53,12 +53,12 @@ header nav a:hover{
     align-items: flex-start;
 }
 
-.filme-principal .descricao{
+.anime-principal .descricao{
     margin-top: 10px;
     margin-bottom: 40px;
 }
 
-.filme-principal .titulo{
+.anime-principal .titulo{
     margin-top: 15%;
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -88,9 +88,20 @@ header nav a:hover{
 }
 
 .container{
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
-.filme-principal .container{
+.anime-principal .container{
     width: 70%;
+}
+
+.box-anime{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carrosel-animes{
+    margin-top: 5px;
 }
