@@ -11,8 +11,9 @@
 
 body{
     background: var(--preta) ;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
+
 }
 
 header .container{
@@ -24,7 +25,7 @@ header .container{
 header .logo{
     margin-left: 5px;
     color: var(--verde);
-    font-family: 'Arial Black', Times;
+    font-family: 'Sacred Hertz Straight', sans-serif;
     font-size: 40px;
 }
 
@@ -61,7 +62,7 @@ header nav a:hover{
 .anime-principal .titulo{
     margin-top: 15%;
     font-size: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Sacred Hertz', sans-serif;
 
 }
 
@@ -104,4 +105,10 @@ header nav a:hover{
 
 .carrosel-animes{
     margin-top: 5px;
+}
+
+h3{
+    font-family: 'Sacred Hertz', sans-serif;
+    color: #006400;
+
 }
